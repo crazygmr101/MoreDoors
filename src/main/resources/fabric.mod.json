@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "moredoors",
+  "version": "${version}",
+  "name": "MoreDoors",
+  "description": "",
+  "authors": [
+    "crazygmr101"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/moredoors/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "unitedminecrafters.moredoors.client.MoreDoorsClient"
+    ],
+    "main": [
+      "unitedminecrafters.moredoors.MoreDoors"
+    ]
+  },
+  "mixins": [
+    "moredoors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}

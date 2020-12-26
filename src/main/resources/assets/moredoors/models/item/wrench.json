@@ -1,0 +1,6 @@
+{
+  "parent":"moredoors:item/tool",
+  "textures": {
+    "layer0":"moredoors:items/wrench"
+  }
+}

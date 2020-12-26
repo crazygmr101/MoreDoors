@@ -1,0 +1,9 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "moredoors:block/birch_window_north" },
+    "facing=south": { "model": "moredoors:block/birch_window_south" },
+    "facing=east": { "model": "moredoors:block/birch_window_east" },
+    "facing=west": { "model": "moredoors:block/birch_window_west" }
+  }
+}

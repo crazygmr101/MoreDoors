@@ -1,0 +1,116 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "main": "minecraft:block/dark_oak_planks"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 2, 0, 12 ], 
+            "to": [ 14, 2, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "down": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 14, 12 ], 
+            "to": [ 14, 16, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "down": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 12 ], 
+            "to": [ 2, 16, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "east": { "texture": "#main", "uv": [ 0, 0, 4, 16 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "west": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "up": { "texture": "#main", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#main", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 14, 0, 12 ], 
+            "to": [ 16, 16, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "east": { "texture": "#main", "uv": [ 0, 0, 4, 16 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "west": { "texture": "#main", "uv": [ 0, 0, 2, 16 ] },
+                "up": { "texture": "#main", "uv": [ 0, 0, 2, 2 ] },
+                "down": { "texture": "#main", "uv": [ 0, 0, 2, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 2, 12 ], 
+            "to": [ 9, 7, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] },
+                "east": { "texture": "#main", "uv": [ 0, 0, 2, 4 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] },
+                "west": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 2, 7, 12 ], 
+            "to": [ 14, 9, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "up": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] },
+                "down": { "texture": "#main", "uv": [ 0, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 9, 12 ], 
+            "to": [ 9, 14, 14 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] },
+                "east": { "texture": "#main", "uv": [ 0, 0, 2, 4 ] },
+                "south": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] },
+                "west": { "texture": "#main", "uv": [ 0, 0, 2, 5 ] }
+            }
+        }
+    ]
+}
