@@ -1,8 +1,16 @@
 {
   "variants": {
-    "facing=north": { "model": "moredoors:block/oak_window_north" },
-    "facing=south": { "model": "moredoors:block/oak_window_south" },
-    "facing=east": { "model": "moredoors:block/oak_window_east" },
-    "facing=west": { "model": "moredoors:block/oak_window_west" }
+    "facing=north": {
+      "model": "moredoors:block/oak_window_north"
+    },
+    "facing=south": {
+      "model": "moredoors:block/oak_window_south"
+    },
+    "facing=east": {
+      "model": "moredoors:block/oak_window_east"
+    },
+    "facing=west": {
+      "model": "moredoors:block/oak_window_west"
+    }
   }
 }

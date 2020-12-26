@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.DoorBlock;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,7 +13,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.lwjgl.system.CallbackI;
 import unitedminecrafters.moredoors.blocks.WindowBlock;
 import unitedminecrafters.moredoors.items.WrenchItem;
 
@@ -45,8 +43,8 @@ public class MoreDoors implements ModInitializer {
         for (String t : types) {
             WindowBlock block = new WindowBlock(FabricBlockSettings.of(Material.WOOD).hardness(1f));
             WINDOWS.add(block);
-            Registry.register(Registry.BLOCK, new Identifier("moredoors", t+"_window"), block);
-            Registry.register(Registry.ITEM, new Identifier("moredoors", t+"_window"),
+            Registry.register(Registry.BLOCK, new Identifier("moredoors", t + "_window"), block);
+            Registry.register(Registry.ITEM, new Identifier("moredoors", t + "_window"),
                     new BlockItem(block, new Item.Settings().group(ITEM_GROUP)));
 
         }
