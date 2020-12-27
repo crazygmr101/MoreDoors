@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    " I ",
+    " S "
+  ],
+  "key": {
+    "X": {"item":  "minecraft:stone"},
+    "I": {"item":  "minecraft:iron_ingot"},
+    "S": {"item":  "minecraft:stick"}
+  },
+  "result": {
+    "item": "quirk:wrench",
+    "count": 1
+  }
+}

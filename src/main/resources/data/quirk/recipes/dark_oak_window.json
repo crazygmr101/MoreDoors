@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "SSS",
+    "PSP"
+  ],
+  "key": {
+    "S": {"item":  "quirk:window_part"},
+    "P": {"item":  "minecraft:dark_oak_planks"}
+  },
+  "result": {
+    "item": "quirk:dark_oak_window",
+    "count": 3
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "quirk:item/tool",
+  "textures": {
+    "layer0": "quirk:items/wrench"
+  }
+}

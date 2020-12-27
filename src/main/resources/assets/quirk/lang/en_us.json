@@ -1,0 +1,10 @@
+{
+  "item.quirk.wrench": "Wrench",
+  "item.quirk.window_part": "Window Part",
+  "block.quirk.oak_window": "Oak Window",
+  "block.quirk.acacia_window": "Acacia Window",
+  "block.quirk.spruce_window": "Spruce Window",
+  "block.quirk.dark_oak_window": "Dark Oak Window",
+  "block.quirk.jungle_window": "Jungle Window",
+  "block.quirk.birch_window": "Birch Window"
+}

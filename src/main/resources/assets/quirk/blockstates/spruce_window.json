@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "quirk:block/spruce_window_north"
+    },
+    "facing=south": {
+      "model": "quirk:block/spruce_window_south"
+    },
+    "facing=east": {
+      "model": "quirk:block/spruce_window_east"
+    },
+    "facing=west": {
+      "model": "quirk:block/spruce_window_west"
+    }
+  }
+}

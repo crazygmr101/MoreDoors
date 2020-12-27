@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "SSS",
+    "PSP"
+  ],
+  "key": {
+    "S": {"item":  "quirk:window_part"},
+    "P": {"item":  "minecraft:birch_planks"}
+  },
+  "result": {
+    "item": "quirk:birch_window",
+    "count": 3
+  }
+}
