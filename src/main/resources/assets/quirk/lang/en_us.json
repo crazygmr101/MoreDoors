@@ -1,6 +1,11 @@
 {
   "item.quirk.wrench": "Wrench",
   "item.quirk.window_part": "Window Part",
+  "item.quirk.reinforced_axe": "Reinforced Iron Axe",
+  "item.quirk.reinforced_sword": "Reinforced Iron Sword",
+  "item.quirk.reinforced_pickaxe": "Reinforced Iron Pickaxe",
+  "item.quirk.reinforced_shovel": "Reinforced Iron Shovel",
+  "item.quirk.reinforced_hoe": "Reinforced Iron Hoe",
   "block.quirk.oak_window": "Oak Window",
   "block.quirk.acacia_window": "Acacia Window",
   "block.quirk.spruce_window": "Spruce Window",

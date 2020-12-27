@@ -6,9 +6,15 @@
     " S "
   ],
   "key": {
-    "X": {"item":  "minecraft:stone"},
-    "I": {"item":  "minecraft:iron_ingot"},
-    "S": {"item":  "minecraft:stick"}
+    "X": {
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "item": "quirk:wrench",

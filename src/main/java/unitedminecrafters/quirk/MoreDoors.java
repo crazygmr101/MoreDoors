@@ -7,14 +7,15 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import unitedminecrafters.quirk.blocks.WindowBlock;
 import unitedminecrafters.quirk.items.WrenchItem;
+import unitedminecrafters.quirk.tools.ReinforcedAxeItem;
+import unitedminecrafters.quirk.tools.ReinforcedHoeItem;
+import unitedminecrafters.quirk.tools.ReinforcedIronMaterial;
+import unitedminecrafters.quirk.tools.ReinforcedPickaxeItem;
 
 import java.util.ArrayList;
 
@@ -37,6 +38,21 @@ public class MoreDoors implements ModInitializer {
 
     public static final WrenchItem WRENCH_ITEM = new WrenchItem(new FabricItemSettings().group(ITEM_GROUP));
     public static final Item WINDOW_PIECE_ITEM = new Item(new FabricItemSettings().group(ITEM_GROUP));
+    public static final ToolItem REINFORCED_AXE =
+            new ReinforcedAxeItem(ReinforcedIronMaterial.INSTANCE, 0, 1,
+                    new Item.Settings().group(ItemGroup.TOOLS));
+    public static final ToolItem REINFORCED_SWORD =
+            new SwordItem(ReinforcedIronMaterial.INSTANCE, 0, 1,
+                    new Item.Settings().group(ItemGroup.TOOLS));
+    public static final ToolItem REINFORCED_SHOVEL =
+            new ShovelItem(ReinforcedIronMaterial.INSTANCE, 0, 1,
+                    new Item.Settings().group(ItemGroup.TOOLS));
+    public static final ToolItem REINFORCED_HOE =
+            new ReinforcedHoeItem(ReinforcedIronMaterial.INSTANCE, 0, 1,
+                    new Item.Settings().group(ItemGroup.TOOLS));
+    public static final ToolItem REINFORCED_PICKAXE =
+            new ReinforcedPickaxeItem(ReinforcedIronMaterial.INSTANCE, 0, 1,
+                    new Item.Settings().group(ItemGroup.TOOLS));
 
 
     @Override
@@ -51,6 +67,11 @@ public class MoreDoors implements ModInitializer {
         }
         Registry.register(Registry.ITEM, new Identifier("quirk", "wrench"), WRENCH_ITEM);
         Registry.register(Registry.ITEM, new Identifier("quirk", "window_part"), WINDOW_PIECE_ITEM);
+        Registry.register(Registry.ITEM, new Identifier("quirk", "reinforced_axe"), REINFORCED_AXE);
+        Registry.register(Registry.ITEM, new Identifier("quirk", "reinforced_sword"), REINFORCED_SWORD);
+        Registry.register(Registry.ITEM, new Identifier("quirk", "reinforced_shovel"), REINFORCED_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier("quirk", "reinforced_hoe"), REINFORCED_HOE);
+        Registry.register(Registry.ITEM, new Identifier("quirk", "reinforced_pickaxe"), REINFORCED_PICKAXE);
     }
 
 

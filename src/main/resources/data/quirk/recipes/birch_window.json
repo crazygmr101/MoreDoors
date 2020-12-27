@@ -6,8 +6,12 @@
     "PSP"
   ],
   "key": {
-    "S": {"item":  "quirk:window_part"},
-    "P": {"item":  "minecraft:birch_planks"}
+    "S": {
+      "item": "quirk:window_part"
+    },
+    "P": {
+      "item": "minecraft:birch_planks"
+    }
   },
   "result": {
     "item": "quirk:birch_window",

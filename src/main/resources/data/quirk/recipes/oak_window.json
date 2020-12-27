@@ -6,8 +6,12 @@
     "PSP"
   ],
   "key": {
-    "S": {"item":  "quirk:window_part"},
-    "P": {"item":  "minecraft:oak_planks"}
+    "S": {
+      "item": "quirk:window_part"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
   },
   "result": {
     "item": "quirk:oak_window",

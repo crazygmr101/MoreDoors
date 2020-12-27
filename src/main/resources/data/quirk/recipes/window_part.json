@@ -6,7 +6,9 @@
     " S "
   ],
   "key": {
-    "S": {"item":  "minecraft:stick"}
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "item": "quirk:window_part",
